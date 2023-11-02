@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+        maven{ url 'https://maven.aliyun.com/nexus/content/repositories/jcenter'}
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.2.2'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.10'
+    }
+}
+
+subprojects {
+    repositories {
+        maven { url 'https://maven.aliyun.com/nexus/content/groups/public/' }
+        maven{ url 'https://maven.aliyun.com/nexus/content/repositories/jcenter'}
+        google()
+        mavenLocal()
+        mavenCentral()
+    }
+
+    version = '4.3.0'
+    group = 'com.journeyapps'
+
+}
