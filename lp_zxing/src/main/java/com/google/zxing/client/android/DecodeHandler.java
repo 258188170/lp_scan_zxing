@@ -88,7 +88,7 @@ final class DecodeHandler extends Handler {
                 int scanSuccess = new CodeDecJni().CodeDecode(source.getMatrix(), source.getWidth(), source.getHeight(), bytes, retStr);
                 if (scanSuccess > 0) {
                     resultStr = new String(retStr[0], "GB18030");
-                    rawResult = new Result(resultStr, retStr[0], null, BarcodeFormat.AZTEC);
+                    rawResult = new Result(resultStr, retStr[0], null, BarcodeFormat.LON_BEI);
                     Log.d("TAG", "decode: 解码成功:" + resultStr);
                 } else {
                     Log.d("TAG", "decode: 解码失败");

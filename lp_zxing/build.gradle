@@ -40,8 +40,9 @@ android {
 }
 
 dependencies {
+    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
 
-    implementation "com.google.zxing:core:3.5.1"
-    implementation "com.google.zxing:zxing-parent:3.5.1"
+//    implementation "com.google.zxing:core:3.5.1"
+//    implementation "com.google.zxing:zxing-parent:3.5.1"
 
 }
