@@ -2,10 +2,8 @@ package com.card.myapplication
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -22,9 +20,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.card.myapplication.ui.theme.MyApplicationTheme
 import com.google.zxing.client.android.CaptureActivity
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
+import com.google.zxing.client.android.Intents
+import com.google.zxing.client.android.Intents.Scan.ACTION
+import com.google.zxing.client.android.Intents.Scan.QR_CODE_MODE
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,7 +49,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         Button(
             modifier = Modifier.padding(all = 16.dp),
             onClick = {
-                context.startActivity(Intent(context, CaptureActivity::class.java))
+                val intent = Intent(context, CaptureActivity::class.java)
+                intent.putExtra(Intents.Scan.FORMATS,QR_CODE_MODE)
+                intent.putExtra(Intents.Scan.ACTION,ACTION)
+                context.startActivity(intent)
             }, content = {
                 Text(text = "connect")
             })

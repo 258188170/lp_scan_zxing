@@ -18,6 +18,8 @@ package com.google.zxing.client.android;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.util.Log;
+
 import com.google.zxing.BarcodeFormat;
 
 import java.util.Arrays;
@@ -69,7 +71,8 @@ final class DecodeFormatManager {
 
   static Set<BarcodeFormat> parseDecodeFormats(Intent intent) {
     Iterable<String> scanFormats = null;
-    CharSequence scanFormatsString = intent.getStringExtra(Intents.Scan.QR_CODE_MODE);
+    CharSequence scanFormatsString = intent.getStringExtra(Intents.Scan.FORMATS);
+    Log.d("wangpeng", "parseDecodeFormats: "+scanFormatsString);
     if (scanFormatsString != null) {
       scanFormats = Arrays.asList(COMMA_PATTERN.split(scanFormatsString));
     }

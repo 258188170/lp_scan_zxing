@@ -53,6 +53,7 @@
                    android:layout_height="wrap_content"
                    android:maxWidth="160dip"
                    android:maxHeight="160dip"
+            android:visibility="gone"
                    android:layout_marginBottom="@dimen/half_padding"
                    android:adjustViewBounds="true"
                    android:scaleType="centerInside"

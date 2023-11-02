@@ -16,16 +16,21 @@
 
 package com.google.zxing.client.android;
 
+import static android.graphics.ImageDecoder.createSource;
+
 import android.graphics.Bitmap;
 
+import com.google.zxing.BarcodeFormat;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.DecodeHintType;
+import com.google.zxing.LuminanceSource;
 import com.google.zxing.MultiFormatReader;
 import com.google.zxing.PlanarYUVLuminanceSource;
 import com.google.zxing.client.android.R;
 import com.google.zxing.ReaderException;
 import com.google.zxing.Result;
 import com.google.zxing.common.HybridBinarizer;
+import com.lpcode.decoding.v0047.l1.CodeDecJni;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -34,6 +39,7 @@ import android.os.Message;
 import android.util.Log;
 
 import java.io.ByteArrayOutputStream;
+import java.io.UnsupportedEncodingException;
 import java.util.Map;
 
 final class DecodeHandler extends Handler {
@@ -61,6 +67,9 @@ final class DecodeHandler extends Handler {
         }
     }
 
+    final static byte[] bytes = "123".getBytes();
+    byte[][] retStr = new byte[8][];
+
     /**
      * Decode the data within the viewfinder rectangle, and time how long it took. For efficiency,
      * reuse the same reader objects from one decode to the next.
@@ -71,17 +80,33 @@ final class DecodeHandler extends Handler {
      */
     private void decode(byte[] data, int width, int height) {
         Result rawResult = null;
+
         PlanarYUVLuminanceSource source = activity.getCameraManager().buildLuminanceSource(data, width, height);
         if (source != null) {
-            BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(source));
+            String resultStr;
             try {
-                rawResult = multiFormatReader.decodeWithState(bitmap);
-            } catch (ReaderException re) {
-                re.printStackTrace();
-                Log.d("wangpeng", "decode: ReaderException");
+                int scanSuccess = new CodeDecJni().CodeDecode(source.getMatrix(), source.getWidth(), source.getHeight(), bytes, retStr);
+                if (scanSuccess > 0) {
+                    resultStr = new String(retStr[0], "GB18030");
+                    rawResult = new Result(resultStr, retStr[0], null, BarcodeFormat.AZTEC);
+                    Log.d("TAG", "decode: 解码成功:" + resultStr);
+                } else {
+                    Log.d("TAG", "decode: 解码失败");
+                }
+            } catch (Exception e) {
                 // continue
-            } finally {
-                multiFormatReader.reset();
+            }
+        }
+        if (source != null) {
+            if (rawResult == null) {
+                BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(source));
+                try {
+                    rawResult = multiFormatReader.decodeWithState(bitmap);
+                } catch (ReaderException re) {
+                    // continue
+                } finally {
+                    multiFormatReader.reset();
+                }
             }
         }
 
