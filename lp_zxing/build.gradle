@@ -36,7 +36,11 @@ android {
             jniLibs.srcDirs = ['libs']
         }
     }
-
+    libraryVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "lp_zxing.aar" // 指定 AAR 文件名称
+        }
+    }
 }
 
 dependencies {
