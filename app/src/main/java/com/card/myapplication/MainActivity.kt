@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -39,6 +40,11 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+    }
+
 }
 
 @Composable
@@ -49,16 +55,16 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         Button(
             modifier = Modifier.padding(all = 16.dp),
             onClick = {
-                val intent = Intent(context, CaptureActivity::class.java)
-                intent.putExtra(Intents.Scan.FORMATS,QR_CODE_MODE)
-                intent.putExtra(Intents.Scan.ACTION,ACTION)
-                context.startActivity(intent)
+
+
             }, content = {
                 Text(text = "connect")
             })
 
     }
 }
+
+
 
 @Preview(showBackground = true)
 @Composable

@@ -74,25 +74,28 @@ final class DecodeHandler extends Handler {
      */
     private void decode(byte[] data, int width, int height) {
         Result rawResult = null;
-
+        byte[] byout = null;
         PlanarYUVLuminanceSource source = activity.getCameraManager().buildLuminanceSource(data, width, height);
         if (source != null) {
-            String resultStr;
+            String resultStr = null;
             try {
-                int scanSuccess = new CodeDecJni().CodeDecode(source.getMatrix(), source.getWidth(), source.getHeight(), bytes, retStr);
-                if (scanSuccess > 0) {
+                int n = new CodeDecJni().CodeDecode(source.getMatrix(), source.getWidth(), source.getHeight(), bytes, retStr);
+                if (n > 0) {
                     resultStr = new String(retStr[0], "GB18030");
-                    rawResult = new Result(resultStr, retStr[0], null, BarcodeFormat.LON_BEI);
+                    boolean ret = CodeDecJni.addData(retStr[0]);
+                    if (ret) byout = CodeDecJni.getData();
+                    rawResult = new Result(resultStr, byout, null, BarcodeFormat.LON_BEI);
                     Log.d("TAG", "decode: 解码成功:" + resultStr);
                 } else {
                     Log.d("TAG", "decode: 解码失败");
                 }
             } catch (Exception e) {
                 // continue
+                e.printStackTrace();
             }
         }
-        if (source != null) {
-            if (rawResult == null) {
+        if (rawResult == null) {
+            if (source != null) {
                 BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(source));
                 try {
                     rawResult = multiFormatReader.decodeWithState(bitmap);
