@@ -43,7 +43,11 @@ class HomeActivity : AppCompatActivity() {
         val splitLevelString = CodeDecJni.splitLevelString(rowByte)
         val readableCode = splitLevelString[0][1]
         val image = splitLevelString[1][1]
-        Log.d(TAG, "机读码: ${ConvertUtils.bytes2String(readableCode)}")
-        Log.d(TAG, "图片: ${ConvertUtils.bytes2String(image)}")
+        if (image.isNotEmpty()){
+            CodeDecJni.ImageDecode(image)
+            Log.d(TAG, "机读码: ${ConvertUtils.bytes2String(readableCode)}")
+            Log.d(TAG, "图片: ${ConvertUtils.bytes2String(image)}")
+        }
+
     }
 }

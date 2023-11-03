@@ -33,6 +33,7 @@ import com.google.zxing.client.android.result.ResultHandlerFactory;
 import com.google.zxing.client.android.result.supplement.SupplementalInfoRetriever;
 import com.google.zxing.client.android.share.ShareActivity;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -83,7 +84,7 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
 
     private static final String TAG = CaptureActivity.class.getSimpleName();
 
-//    private static final long DEFAULT_INTENT_RESULT_DURATION_MS = 1500L;
+    //    private static final long DEFAULT_INTENT_RESULT_DURATION_MS = 1500L;
     private static final long DEFAULT_INTENT_RESULT_DURATION_MS = 0;
     private static final long BULK_MODE_SCAN_DELAY_MS = 0;
 
@@ -136,7 +137,11 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
         Window window = getWindow();
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         setContentView(R.layout.capture);
-
+        ActionBar actionBar = getActionBar();
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true); // 启用返回按钮
+            actionBar.setDisplayUseLogoEnabled(false);
+        }
         hasSurface = false;
         inactivityTimer = new InactivityTimer(this);
         beepManager = new BeepManager(this);
@@ -364,19 +369,21 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.addFlags(Intents.FLAG_NEW_DOC);
         int itemId = item.getItemId();
-        if (itemId == R.id.menu_share) {
-            intent.setClassName(this, ShareActivity.class.getName());
-            startActivity(intent);
-        } else if (itemId == R.id.menu_history) {
+        if (itemId == R.id.menu_history) {
             intent.setClassName(this, HistoryActivity.class.getName());
             startActivityForResult(intent, HISTORY_REQUEST_CODE);
         } else if (itemId == R.id.menu_settings) {
             intent.setClassName(this, PreferencesActivity.class.getName());
             startActivity(intent);
-        } else if (itemId == R.id.menu_help) {
-            intent.setClassName(this, HelpActivity.class.getName());
-            startActivity(intent);
-        } else {
+        } else if (itemId == android.R.id.home) {
+            onBackPressed();
+            return true;
+        }
+//       else if (itemId == R.id.menu_help) {
+//            intent.setClassName(this, HelpActivity.class.getName());
+//            startActivity(intent);
+//        }
+        else {
             return super.onOptionsItemSelected(item);
         }
         return true;
