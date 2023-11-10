@@ -31,7 +31,6 @@ class HomeActivity : AppCompatActivity() {
         if (resultCode == RESULT_OK) {
             val stringExtra = data?.getStringExtra(Intents.Scan.RESULT)
             val rowByte = data?.getByteArrayExtra(Intents.Scan.RESULT_BYTES)
-
             if (rowByte != null && rowByte.isNotEmpty()) {
                 lpDecode(rowByte)
             }
