@@ -16,6 +16,7 @@
 
 package com.google.zxing.client.android;
 
+import com.blankj.utilcode.util.SizeUtils;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.DecodeHintType;
 import com.google.zxing.client.android.R;
@@ -210,13 +211,13 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
                 decodeFormats = DecodeFormatManager.parseDecodeFormats(intent);
                 decodeHints = DecodeHintManager.parseDecodeHints(intent);
 
-                if (intent.hasExtra(Intents.Scan.WIDTH) && intent.hasExtra(Intents.Scan.HEIGHT)) {
-                    int width = intent.getIntExtra(Intents.Scan.WIDTH, 0);
-                    int height = intent.getIntExtra(Intents.Scan.HEIGHT, 0);
-                    if (width > 0 && height > 0) {
-                        cameraManager.setManualFramingRect(width, height);
-                    }
+                int width = intent.getIntExtra(Intents.Scan.WIDTH, 240);
+                int height = intent.getIntExtra(Intents.Scan.HEIGHT, 240);
+
+                if (width > 0 && height > 0) {
+                    cameraManager.setManualFramingRect(SizeUtils.dp2px(width), SizeUtils.dp2px(height));
                 }
+
 
                 if (intent.hasExtra(Intents.Scan.CAMERA_ID)) {
                     int cameraId = intent.getIntExtra(Intents.Scan.CAMERA_ID, -1);

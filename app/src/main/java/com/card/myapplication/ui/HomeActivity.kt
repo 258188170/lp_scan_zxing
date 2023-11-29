@@ -21,6 +21,8 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this, CaptureActivity::class.java)
             intent.putExtra(Intents.Scan.FORMATS, Intents.Scan.QR_CODE_MODE)
             intent.putExtra(Intents.Scan.ACTION, Intents.Scan.ACTION)
+            intent.putExtra(Intents.Scan.WIDTH, 300)
+            intent.putExtra(Intents.Scan.HEIGHT, 300)
             startActivityForResult(intent, 10086)
         }
     }
