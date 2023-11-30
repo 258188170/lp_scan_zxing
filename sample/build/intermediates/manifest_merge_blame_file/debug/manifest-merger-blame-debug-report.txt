@@ -1,0 +1,366 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="example.zxing"
+4    android:versionCode="411"
+5    android:versionName="4.1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+11-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:5-65
+11-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:22-62
+12    <uses-feature
+12-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-27:36
+13        android:name="android.hardware.camera"
+13-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-47
+14        android:required="false" />
+14-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-33
+15    <uses-feature
+15-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:5-30:36
+16        android:name="android.hardware.camera.front"
+16-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-53
+17        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+17-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-33
+18    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+19    <uses-feature
+19-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:5-35:36
+20        android:name="android.hardware.camera.autofocus"
+20-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-57
+21        android:required="false" />
+21-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-33
+22    <uses-feature
+22-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:5-38:36
+23        android:name="android.hardware.camera.flash"
+23-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-53
+24        android:required="false" />
+24-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-33
+25    <uses-feature
+25-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:5-41:36
+26        android:name="android.hardware.screen.landscape"
+26-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-57
+27        android:required="false" />
+27-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-33
+28    <uses-feature
+28-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:5-44:36
+29        android:name="android.hardware.wifi"
+29-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-45
+30        android:required="false" />
+30-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:9-33
+31
+32    <queries>
+32-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:9:5-16:15
+33        <intent>
+33-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:10:9-12:18
+34            <action android:name="android.intent.action.MAIN" />
+34-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:15:17-69
+34-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:15:25-66
+35        </intent>
+36        <intent>
+36-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:13:9-15:18
+37            <action android:name="android.intent.action.VIEW" />
+37-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:14:13-65
+37-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:14:21-62
+38        </intent>
+39    </queries> <!-- To store the heap dumps and leak analysis results. -->
+40    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+40-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:23:5-80
+40-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:23:22-77
+41    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+41-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:24:5-81
+41-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:24:22-78
+42    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+42-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:26:5-77
+42-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:26:22-74
+43
+44    <application
+44-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:5:5-50:19
+45        android:name="example.zxing.SampleApplication"
+45-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:6:9-42
+46        android:allowBackup="false"
+46-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:7:9-36
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.6.0] /Users/wp/.gradle/caches/transforms-3/2c28cffc1346de6a33e00a19c46b6b43/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+48        android:debuggable="true"
+49        android:icon="@drawable/icon"
+49-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:8:9-38
+50        android:label="@string/app_name"
+50-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:9:9-41
+51        android:testOnly="true" >
+52        <activity
+52-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:10:9-19:20
+53            android:name="example.zxing.MainActivity"
+53-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:11:13-41
+54            android:label="@string/app_name"
+54-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:12:13-45
+55            android:theme="@style/AppTheme" >
+55-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:13:13-44
+56            <intent-filter>
+56-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:14:13-18:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:15:17-69
+57-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:15:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:17:17-77
+59-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:17:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity android:name="example.zxing.ContinuousCaptureActivity" />
+62-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:20:9-72
+62-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:20:19-60
+63        <activity
+63-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:21:9-26:72
+64            android:name="example.zxing.AnyOrientationCaptureActivity"
+64-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:22:13-58
+65            android:screenOrientation="fullSensor"
+65-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:23:13-51
+66            android:stateNotNeeded="true"
+66-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:24:13-42
+67            android:theme="@style/zxing_CaptureTheme"
+67-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:25:13-54
+68            android:windowSoftInputMode="stateAlwaysHidden" />
+68-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:26:13-60
+69        <activity
+69-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:27:9-33:72
+70            android:name="example.zxing.ToolbarCaptureActivity"
+70-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:28:13-51
+71            android:clearTaskOnLaunch="true"
+71-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:29:13-45
+72            android:screenOrientation="portrait"
+72-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:30:13-49
+73            android:stateNotNeeded="true"
+73-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:31:13-42
+74            android:theme="@style/AppCompatCaptureTheme"
+74-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:32:13-57
+75            android:windowSoftInputMode="stateAlwaysHidden" />
+75-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:33:13-60
+76        <activity
+76-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:34:9-39:72
+77            android:name="example.zxing.CustomScannerActivity"
+77-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:35:13-50
+78            android:screenOrientation="fullSensor"
+78-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:36:13-51
+79            android:stateNotNeeded="true"
+79-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:37:13-42
+80            android:theme="@style/zxing_CaptureTheme"
+80-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:38:13-54
+81            android:windowSoftInputMode="stateAlwaysHidden" />
+81-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:39:13-60
+82        <activity
+82-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:40:9-45:72
+83            android:name="example.zxing.SmallCaptureActivity"
+83-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:41:13-49
+84            android:screenOrientation="fullSensor"
+84-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:42:13-51
+85            android:stateNotNeeded="true"
+85-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:43:13-42
+86            android:theme="@style/zxing_CaptureTheme"
+86-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:44:13-54
+87            android:windowSoftInputMode="stateAlwaysHidden" />
+87-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:45:13-60
+88        <activity
+88-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:46:9-49:79
+89            android:name="example.zxing.TabbedScanning"
+89-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:47:13-43
+90            android:label="@string/title_activity_tabbed_scanning"
+90-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:49:13-67
+91            android:theme="@style/Theme.AppCompat" />
+91-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:48:13-51
+92
+93        <service
+93-->[com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:23:9-25:40
+94            android:name="leakcanary.internal.HeapAnalyzerService"
+94-->[com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:24:13-67
+95            android:exported="false" />
+95-->[com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:25:13-37
+96
+97        <activity
+97-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:47:9-53:63
+98            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+98-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:48:13-74
+99            android:clearTaskOnLaunch="true"
+99-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:49:13-45
+100            android:screenOrientation="sensorLandscape"
+100-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:50:13-56
+101            android:stateNotNeeded="true"
+101-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:51:13-42
+102            android:theme="@style/zxing_CaptureTheme"
+102-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:52:13-54
+103            android:windowSoftInputMode="stateAlwaysHidden" />
+103-->[:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:53:13-60
+104        <activity
+104-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:19:9-24:75
+105            android:name="com.blankj.utilcode.util.UtilsTransActivity4MainProcess"
+105-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:20:13-83
+106            android:configChanges="orientation|keyboardHidden|screenSize"
+106-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:21:13-74
+107            android:exported="false"
+107-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:22:13-37
+108            android:theme="@style/ActivityTranslucent"
+108-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:23:13-55
+109            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+109-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:24:13-72
+110        <activity
+110-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:25:9-31:75
+111            android:name="com.blankj.utilcode.util.UtilsTransActivity"
+111-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:26:13-71
+112            android:configChanges="orientation|keyboardHidden|screenSize"
+112-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:27:13-74
+113            android:exported="false"
+113-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:28:13-37
+114            android:multiprocess="true"
+114-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:29:13-40
+115            android:theme="@style/ActivityTranslucent"
+115-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:30:13-55
+116            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+116-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:31:13-72
+117
+118        <provider
+118-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:33:9-41:20
+119            android:name="com.blankj.utilcode.util.UtilsFileProvider"
+119-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:34:13-70
+120            android:authorities="example.zxing.utilcode.fileprovider"
+120-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:35:13-73
+121            android:exported="false"
+121-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:36:13-37
+122            android:grantUriPermissions="true" >
+122-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:37:13-47
+123            <meta-data
+123-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:38:13-40:68
+124                android:name="android.support.FILE_PROVIDER_PATHS"
+124-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:39:17-67
+125                android:resource="@xml/util_code_provider_paths" />
+125-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:40:17-65
+126        </provider>
+127
+128        <service
+128-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:43:9-49:19
+129            android:name="com.blankj.utilcode.util.MessengerUtils$ServerService"
+129-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:44:13-81
+130            android:exported="false" >
+130-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:45:13-37
+131            <intent-filter>
+131-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:46:13-48:29
+132                <action android:name="example.zxing.messenger" />
+132-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:47:17-69
+132-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:47:25-66
+133            </intent-filter>
+134        </service>
+135
+136        <activity android:name="com.mikepenz.aboutlibraries.ui.LibsActivity" />
+136-->[com.mikepenz:aboutlibraries:6.2.3] /Users/wp/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:12:9-80
+136-->[com.mikepenz:aboutlibraries:6.2.3] /Users/wp/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:12:19-77
+137
+138        <provider
+138-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:29:9-37:20
+139            android:name="leakcanary.internal.LeakCanaryFileProvider"
+139-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:30:13-70
+140            android:authorities="com.squareup.leakcanary.fileprovider.example.zxing"
+140-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:31:13-88
+141            android:exported="false"
+141-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:32:13-37
+142            android:grantUriPermissions="true" >
+142-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:33:13-47
+143            <meta-data
+143-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:38:13-40:68
+144                android:name="android.support.FILE_PROVIDER_PATHS"
+144-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:39:17-67
+145                android:resource="@xml/leak_canary_file_paths" />
+145-->[com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:40:17-65
+146        </provider>
+147
+148        <activity
+148-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:39:9-44:66
+149            android:name="leakcanary.internal.activity.LeakActivity"
+149-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:40:13-69
+150            android:icon="@mipmap/leak_canary_icon"
+150-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:41:13-52
+151            android:label="@string/leak_canary_display_activity_label"
+151-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:42:13-71
+152            android:taskAffinity="com.squareup.leakcanary.example.zxing"
+152-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:43:13-76
+153            android:theme="@style/leak_canary_LeakCanary.Base" />
+153-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:44:13-63
+154
+155        <activity-alias
+155-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:46:9-63:26
+156            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+156-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:47:13-77
+157            android:banner="@drawable/leak_canary_tv_icon"
+157-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:48:13-59
+158            android:enabled="@bool/leak_canary_add_launcher_icon"
+158-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:49:13-66
+159            android:exported="true"
+159-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:50:13-36
+160            android:icon="@mipmap/leak_canary_icon"
+160-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:51:13-52
+161            android:label="@string/leak_canary_display_activity_label"
+161-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:52:13-71
+162            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+162-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:53:13-79
+163            android:taskAffinity="com.squareup.leakcanary.example.zxing"
+163-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:54:13-76
+164            android:theme="@style/leak_canary_LeakCanary.Base" >
+164-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:55:13-63
+165            <intent-filter>
+165-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:56:13-62:29
+166                <action android:name="android.intent.action.MAIN" />
+166-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:15:17-69
+166-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:15:25-66
+167
+168                <category android:name="android.intent.category.LAUNCHER" />
+168-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:17:17-77
+168-->/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:17:27-74
+169                <!-- Android TV launcher intent -->
+170                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+170-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:61:17-86
+170-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:61:27-83
+171            </intent-filter>
+172        </activity-alias>
+173
+174        <activity
+174-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:65:9-71:68
+175            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+175-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:66:13-80
+176            android:excludeFromRecents="true"
+176-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:67:13-46
+177            android:icon="@mipmap/leak_canary_icon"
+177-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:68:13-52
+178            android:label="@string/leak_canary_storage_permission_activity_label"
+178-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:69:13-82
+179            android:taskAffinity="com.squareup.leakcanary.example.zxing"
+179-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:70:13-76
+180            android:theme="@style/leak_canary_Theme.Transparent" />
+180-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:71:13-65
+181
+182        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+182-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:73:9-77
+182-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:73:19-74
+183
+184        <provider
+184-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:8:9-12:40
+185            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+185-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:9:13-79
+186            android:authorities="example.zxing.leakcanary-installer"
+186-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:10:13-72
+187            android:enabled="@bool/leak_canary_watcher_auto_install"
+187-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:11:13-69
+188            android:exported="false" />
+188-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:12:13-37
+189        <provider
+189-->[com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:8:9-12:40
+190            android:name="leakcanary.internal.PlumberInstaller"
+190-->[com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:9:13-64
+191            android:authorities="example.zxing.plumber-installer"
+191-->[com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:10:13-69
+192            android:enabled="@bool/leak_canary_plumber_auto_install"
+192-->[com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:11:13-69
+193            android:exported="false" />
+193-->[com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:12:13-37
+194    </application>
+195
+196</manifest>

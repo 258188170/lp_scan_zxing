@@ -1,0 +1,532 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/wp/.gradle/caches/transforms-3/9e11acc90d9fc08352494aad6db6ff99/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:1-56:12
+MERGED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:2:1-52:12
+MERGED from [com.mikepenz:aboutlibraries:6.2.3] /Users/wp/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:2:1-15:12
+MERGED from [com.mikepenz:iconics-core:3.2.0] /Users/wp/.gradle/caches/transforms-3/3d97af38d93aa2d15b81931f28c4a2ca/transformed/iconics-core-3.2.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mikepenz:fastadapter:3.3.1] /Users/wp/.gradle/caches/transforms-3/4dc8c0127e0e5bfc38173910d1fd509f/transformed/fastadapter-3.3.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/wp/.gradle/caches/transforms-3/3deb94eb3311e092f82dc1dbd499950d/transformed/appcompat-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/wp/.gradle/caches/transforms-3/cdcdf8bdf284fea83061999fd76581d4/transformed/legacy-support-v13-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/wp/.gradle/caches/transforms-3/23d6dc1ecbb06b8116119eeaad15895b/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/wp/.gradle/caches/transforms-3/217be7eeb328a78c3738a3cc08f3e546/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.3.1] /Users/wp/.gradle/caches/transforms-3/c88c136dec301da4bcda36acc967282f/transformed/activity-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:17:1-76:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] /Users/wp/.gradle/caches/transforms-3/e15616853b4c75a504fa483bf32b61b5/transformed/leakcanary-object-watcher-android-androidx-2.7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] /Users/wp/.gradle/caches/transforms-3/079a6eb388a25e2e2448090fe9671542/transformed/leakcanary-object-watcher-android-support-fragments-2.7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] /Users/wp/.gradle/caches/transforms-3/c1f2383f5c0a1f89afc4d72da6390650/transformed/leakcanary-android-utils-2.7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.curtains:curtains:1.0.1] /Users/wp/.gradle/caches/transforms-3/23777deabf73314b4697fe885343034f/transformed/curtains-1.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/wp/.gradle/caches/transforms-3/835550178d416cce4e5ac227988fe353/transformed/appcompat-resources-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/wp/.gradle/caches/transforms-3/79d64a711f06826ff50c57b73759cf84/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/wp/.gradle/caches/transforms-3/bbe5588832401bb42cf196d42ebfab83/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/wp/.gradle/caches/transforms-3/17b0e2d1425f84fa1fa985ca09cbb003/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wp/.gradle/caches/transforms-3/a0bf795c9336e29281e2ba61758ccbd6/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/wp/.gradle/caches/transforms-3/9bb4379cfbd2855ee9aff7fea804eee4/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/wp/.gradle/caches/transforms-3/23e6d57f228e6773f67844b3f620c0e6/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/wp/.gradle/caches/transforms-3/29525f7127294abba0c06b6cb24f3615/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/wp/.gradle/caches/transforms-3/8596e9f221d862b1894b6fa93b3ac7d5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/wp/.gradle/caches/transforms-3/1d7242058d3891f52ef3526a00630e9b/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/wp/.gradle/caches/transforms-3/f82e18a1ce9e30bafc75fb96f29e00d0/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/wp/.gradle/caches/transforms-3/14012aef9d5e15a4dbb6850af33cc0a9/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/wp/.gradle/caches/transforms-3/dededf3fdc1a1fbe5d97f31941c1fd1f/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/wp/.gradle/caches/transforms-3/cb1f259e64410a9034d94b35e5fa98cd/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/wp/.gradle/caches/transforms-3/e4254d2de89442564af95a4b121e82d5/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/wp/.gradle/caches/transforms-3/2c28cffc1346de6a33e00a19c46b6b43/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/wp/.gradle/caches/transforms-3/3ddabfc392275216660f4b3cc6052c0d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/wp/.gradle/caches/transforms-3/15bbbdcbb71b87a888ccda4ce4036813/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/wp/.gradle/caches/transforms-3/fd414bac1449035df1d924b3d8be56c8/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/wp/.gradle/caches/transforms-3/e3f35c3fd4df26f2771e4de5a1e77489/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/wp/.gradle/caches/transforms-3/f8d29bd9f432a7bf0606d2d9374224ad/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/wp/.gradle/caches/transforms-3/c9e2364a310178c6bdbb57cc78519843/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/wp/.gradle/caches/transforms-3/72da229d37c77372525da040b5c10b7b/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/wp/.gradle/caches/transforms-3/eac56fae14db340a69b5ebdeea73afe1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/wp/.gradle/caches/transforms-3/f5b0207e27d111adfc8fe0798ba3f31d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/wp/.gradle/caches/transforms-3/4b9ea3bdacace7533c90e0dfca8b356c/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/wp/.gradle/caches/transforms-3/417738dbb68e7c8be76f6006f88545aa/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wp/.gradle/caches/transforms-3/915baf7579b1cf7117ada386f454d156/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/wp/.gradle/caches/transforms-3/a49abe5190d0ddd294067906651adf26/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/wp/.gradle/caches/transforms-3/cbc85052eb0c82550e795119208f43ff/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/wp/.gradle/caches/transforms-3/6ae12152e4763bfaf25db7542b2981db/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/wp/.gradle/caches/transforms-3/d4d8a64e342d5f7360962b6d766b1f2a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+	package
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:5:5-50:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:22:5-26:19
+MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:46:5-54:19
+MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:46:5-54:19
+MERGED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:18:5-50:19
+MERGED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:18:5-50:19
+MERGED from [com.mikepenz:aboutlibraries:6.2.3] /Users/wp/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:11:5-13:19
+MERGED from [com.mikepenz:aboutlibraries:6.2.3] /Users/wp/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:11:5-13:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:28:5-74:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:28:5-74:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [androidx.core:core:1.6.0] /Users/wp/.gradle/caches/transforms-3/2c28cffc1346de6a33e00a19c46b6b43/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/wp/.gradle/caches/transforms-3/2c28cffc1346de6a33e00a19c46b6b43/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/wp/.gradle/caches/transforms-3/eac56fae14db340a69b5ebdeea73afe1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/wp/.gradle/caches/transforms-3/eac56fae14db340a69b5ebdeea73afe1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/wp/.gradle/caches/transforms-3/2c28cffc1346de6a33e00a19c46b6b43/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:9:9-41
+	android:icon
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:8:9-38
+	android:allowBackup
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:7:9-36
+	android:name
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:6:9-42
+activity#example.zxing.MainActivity
+ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:10:9-19:20
+	android:label
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:12:13-45
+	android:theme
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:13:13-44
+	android:name
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:11:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:17:27-74
+activity#example.zxing.ContinuousCaptureActivity
+ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:20:9-72
+	android:name
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:20:19-60
+activity#example.zxing.AnyOrientationCaptureActivity
+ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:21:9-26:72
+	android:screenOrientation
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:23:13-51
+	android:stateNotNeeded
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:24:13-42
+	android:windowSoftInputMode
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:26:13-60
+	android:theme
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:25:13-54
+	android:name
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:22:13-58
+activity#example.zxing.ToolbarCaptureActivity
+ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:27:9-33:72
+	android:screenOrientation
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:30:13-49
+	android:clearTaskOnLaunch
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:29:13-45
+	android:stateNotNeeded
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:31:13-42
+	android:windowSoftInputMode
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:33:13-60
+	android:theme
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:32:13-57
+	android:name
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:28:13-51
+activity#example.zxing.CustomScannerActivity
+ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:34:9-39:72
+	android:screenOrientation
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:36:13-51
+	android:stateNotNeeded
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:37:13-42
+	android:windowSoftInputMode
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:39:13-60
+	android:theme
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:38:13-54
+	android:name
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:35:13-50
+activity#example.zxing.SmallCaptureActivity
+ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:40:9-45:72
+	android:screenOrientation
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:42:13-51
+	android:stateNotNeeded
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:43:13-42
+	android:windowSoftInputMode
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:45:13-60
+	android:theme
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:44:13-54
+	android:name
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:41:13-49
+activity#example.zxing.TabbedScanning
+ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:46:9-49:79
+	android:label
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:49:13-67
+	android:theme
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:48:13-51
+	android:name
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:47:13-43
+uses-sdk
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/wp/.gradle/caches/transforms-3/9e11acc90d9fc08352494aad6db6ff99/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/wp/.gradle/caches/transforms-3/9e11acc90d9fc08352494aad6db6ff99/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-44
+MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-44
+MERGED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:7:5-44
+MERGED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:7:5-44
+MERGED from [com.mikepenz:aboutlibraries:6.2.3] /Users/wp/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:aboutlibraries:6.2.3] /Users/wp/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:iconics-core:3.2.0] /Users/wp/.gradle/caches/transforms-3/3d97af38d93aa2d15b81931f28c4a2ca/transformed/iconics-core-3.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:iconics-core:3.2.0] /Users/wp/.gradle/caches/transforms-3/3d97af38d93aa2d15b81931f28c4a2ca/transformed/iconics-core-3.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:fastadapter:3.3.1] /Users/wp/.gradle/caches/transforms-3/4dc8c0127e0e5bfc38173910d1fd509f/transformed/fastadapter-3.3.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:fastadapter:3.3.1] /Users/wp/.gradle/caches/transforms-3/4dc8c0127e0e5bfc38173910d1fd509f/transformed/fastadapter-3.3.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/wp/.gradle/caches/transforms-3/3deb94eb3311e092f82dc1dbd499950d/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] /Users/wp/.gradle/caches/transforms-3/3deb94eb3311e092f82dc1dbd499950d/transformed/appcompat-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/wp/.gradle/caches/transforms-3/cdcdf8bdf284fea83061999fd76581d4/transformed/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v13:1.0.0] /Users/wp/.gradle/caches/transforms-3/cdcdf8bdf284fea83061999fd76581d4/transformed/legacy-support-v13-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/wp/.gradle/caches/transforms-3/23d6dc1ecbb06b8116119eeaad15895b/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/wp/.gradle/caches/transforms-3/23d6dc1ecbb06b8116119eeaad15895b/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/wp/.gradle/caches/transforms-3/217be7eeb328a78c3738a3cc08f3e546/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/wp/.gradle/caches/transforms-3/217be7eeb328a78c3738a3cc08f3e546/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.3.1] /Users/wp/.gradle/caches/transforms-3/c88c136dec301da4bcda36acc967282f/transformed/activity-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.3.1] /Users/wp/.gradle/caches/transforms-3/c88c136dec301da4bcda36acc967282f/transformed/activity-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] /Users/wp/.gradle/caches/transforms-3/e15616853b4c75a504fa483bf32b61b5/transformed/leakcanary-object-watcher-android-androidx-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] /Users/wp/.gradle/caches/transforms-3/e15616853b4c75a504fa483bf32b61b5/transformed/leakcanary-object-watcher-android-androidx-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] /Users/wp/.gradle/caches/transforms-3/079a6eb388a25e2e2448090fe9671542/transformed/leakcanary-object-watcher-android-support-fragments-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] /Users/wp/.gradle/caches/transforms-3/079a6eb388a25e2e2448090fe9671542/transformed/leakcanary-object-watcher-android-support-fragments-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] /Users/wp/.gradle/caches/transforms-3/c1f2383f5c0a1f89afc4d72da6390650/transformed/leakcanary-android-utils-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] /Users/wp/.gradle/caches/transforms-3/c1f2383f5c0a1f89afc4d72da6390650/transformed/leakcanary-android-utils-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.curtains:curtains:1.0.1] /Users/wp/.gradle/caches/transforms-3/23777deabf73314b4697fe885343034f/transformed/curtains-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.curtains:curtains:1.0.1] /Users/wp/.gradle/caches/transforms-3/23777deabf73314b4697fe885343034f/transformed/curtains-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/wp/.gradle/caches/transforms-3/835550178d416cce4e5ac227988fe353/transformed/appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] /Users/wp/.gradle/caches/transforms-3/835550178d416cce4e5ac227988fe353/transformed/appcompat-resources-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/wp/.gradle/caches/transforms-3/79d64a711f06826ff50c57b73759cf84/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/wp/.gradle/caches/transforms-3/79d64a711f06826ff50c57b73759cf84/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/wp/.gradle/caches/transforms-3/bbe5588832401bb42cf196d42ebfab83/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/wp/.gradle/caches/transforms-3/bbe5588832401bb42cf196d42ebfab83/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/wp/.gradle/caches/transforms-3/17b0e2d1425f84fa1fa985ca09cbb003/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/wp/.gradle/caches/transforms-3/17b0e2d1425f84fa1fa985ca09cbb003/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wp/.gradle/caches/transforms-3/a0bf795c9336e29281e2ba61758ccbd6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/wp/.gradle/caches/transforms-3/a0bf795c9336e29281e2ba61758ccbd6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/wp/.gradle/caches/transforms-3/9bb4379cfbd2855ee9aff7fea804eee4/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/wp/.gradle/caches/transforms-3/9bb4379cfbd2855ee9aff7fea804eee4/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/wp/.gradle/caches/transforms-3/23e6d57f228e6773f67844b3f620c0e6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/wp/.gradle/caches/transforms-3/23e6d57f228e6773f67844b3f620c0e6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/wp/.gradle/caches/transforms-3/29525f7127294abba0c06b6cb24f3615/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/wp/.gradle/caches/transforms-3/29525f7127294abba0c06b6cb24f3615/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/wp/.gradle/caches/transforms-3/8596e9f221d862b1894b6fa93b3ac7d5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/wp/.gradle/caches/transforms-3/8596e9f221d862b1894b6fa93b3ac7d5/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/wp/.gradle/caches/transforms-3/1d7242058d3891f52ef3526a00630e9b/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/wp/.gradle/caches/transforms-3/1d7242058d3891f52ef3526a00630e9b/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/wp/.gradle/caches/transforms-3/f82e18a1ce9e30bafc75fb96f29e00d0/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/wp/.gradle/caches/transforms-3/f82e18a1ce9e30bafc75fb96f29e00d0/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/wp/.gradle/caches/transforms-3/14012aef9d5e15a4dbb6850af33cc0a9/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/wp/.gradle/caches/transforms-3/14012aef9d5e15a4dbb6850af33cc0a9/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/wp/.gradle/caches/transforms-3/dededf3fdc1a1fbe5d97f31941c1fd1f/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/wp/.gradle/caches/transforms-3/dededf3fdc1a1fbe5d97f31941c1fd1f/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/wp/.gradle/caches/transforms-3/cb1f259e64410a9034d94b35e5fa98cd/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/wp/.gradle/caches/transforms-3/cb1f259e64410a9034d94b35e5fa98cd/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/wp/.gradle/caches/transforms-3/e4254d2de89442564af95a4b121e82d5/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/wp/.gradle/caches/transforms-3/e4254d2de89442564af95a4b121e82d5/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/wp/.gradle/caches/transforms-3/2c28cffc1346de6a33e00a19c46b6b43/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/wp/.gradle/caches/transforms-3/2c28cffc1346de6a33e00a19c46b6b43/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/wp/.gradle/caches/transforms-3/3ddabfc392275216660f4b3cc6052c0d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/wp/.gradle/caches/transforms-3/3ddabfc392275216660f4b3cc6052c0d/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/wp/.gradle/caches/transforms-3/15bbbdcbb71b87a888ccda4ce4036813/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/wp/.gradle/caches/transforms-3/15bbbdcbb71b87a888ccda4ce4036813/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/wp/.gradle/caches/transforms-3/fd414bac1449035df1d924b3d8be56c8/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/wp/.gradle/caches/transforms-3/fd414bac1449035df1d924b3d8be56c8/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/wp/.gradle/caches/transforms-3/e3f35c3fd4df26f2771e4de5a1e77489/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/wp/.gradle/caches/transforms-3/e3f35c3fd4df26f2771e4de5a1e77489/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/wp/.gradle/caches/transforms-3/f8d29bd9f432a7bf0606d2d9374224ad/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/wp/.gradle/caches/transforms-3/f8d29bd9f432a7bf0606d2d9374224ad/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/wp/.gradle/caches/transforms-3/c9e2364a310178c6bdbb57cc78519843/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/wp/.gradle/caches/transforms-3/c9e2364a310178c6bdbb57cc78519843/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/wp/.gradle/caches/transforms-3/72da229d37c77372525da040b5c10b7b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/wp/.gradle/caches/transforms-3/72da229d37c77372525da040b5c10b7b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/wp/.gradle/caches/transforms-3/eac56fae14db340a69b5ebdeea73afe1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/wp/.gradle/caches/transforms-3/eac56fae14db340a69b5ebdeea73afe1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/wp/.gradle/caches/transforms-3/f5b0207e27d111adfc8fe0798ba3f31d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/wp/.gradle/caches/transforms-3/f5b0207e27d111adfc8fe0798ba3f31d/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/wp/.gradle/caches/transforms-3/4b9ea3bdacace7533c90e0dfca8b356c/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/wp/.gradle/caches/transforms-3/4b9ea3bdacace7533c90e0dfca8b356c/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/wp/.gradle/caches/transforms-3/417738dbb68e7c8be76f6006f88545aa/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/wp/.gradle/caches/transforms-3/417738dbb68e7c8be76f6006f88545aa/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wp/.gradle/caches/transforms-3/915baf7579b1cf7117ada386f454d156/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/wp/.gradle/caches/transforms-3/915baf7579b1cf7117ada386f454d156/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/wp/.gradle/caches/transforms-3/a49abe5190d0ddd294067906651adf26/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/wp/.gradle/caches/transforms-3/a49abe5190d0ddd294067906651adf26/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/wp/.gradle/caches/transforms-3/cbc85052eb0c82550e795119208f43ff/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/wp/.gradle/caches/transforms-3/cbc85052eb0c82550e795119208f43ff/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/wp/.gradle/caches/transforms-3/6ae12152e4763bfaf25db7542b2981db/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/wp/.gradle/caches/transforms-3/6ae12152e4763bfaf25db7542b2981db/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/wp/.gradle/caches/transforms-3/d4d8a64e342d5f7360962b6d766b1f2a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/wp/.gradle/caches/transforms-3/d4d8a64e342d5f7360962b6d766b1f2a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+service#leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:24:13-67
+uses-permission#android.permission.CAMERA
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:5-41:36
+	android:required
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-33
+	android:name
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-57
+uses-feature#android.hardware.wifi
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:5-44:36
+	android:required
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:9-33
+	android:name
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:47:9-53:63
+	android:screenOrientation
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:50:13-56
+	android:clearTaskOnLaunch
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:49:13-45
+	android:stateNotNeeded
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:51:13-42
+	android:windowSoftInputMode
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:53:13-60
+	android:theme
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:52:13-54
+	android:name
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:48:13-74
+queries
+ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:9:5-16:15
+intent#action:name:android.intent.action.MAIN
+ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:10:9-12:18
+intent#action:name:android.intent.action.VIEW
+ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:13:9-15:18
+action#android.intent.action.VIEW
+ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:14:13-65
+	android:name
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:14:21-62
+activity#com.blankj.utilcode.util.UtilsTransActivity4MainProcess
+ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:19:9-24:75
+	android:windowSoftInputMode
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:24:13-72
+	android:exported
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:22:13-37
+	android:configChanges
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:21:13-74
+	android:theme
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:23:13-55
+	android:name
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:20:13-83
+activity#com.blankj.utilcode.util.UtilsTransActivity
+ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:25:9-31:75
+	android:multiprocess
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:29:13-40
+	android:windowSoftInputMode
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:31:13-72
+	android:exported
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:28:13-37
+	android:configChanges
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:27:13-74
+	android:theme
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:30:13-55
+	android:name
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:26:13-71
+provider#com.blankj.utilcode.util.UtilsFileProvider
+ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:33:9-41:20
+	android:grantUriPermissions
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:37:13-47
+	android:authorities
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:35:13-73
+	android:exported
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:34:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:38:13-40:68
+	android:resource
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:40:17-65
+	android:name
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:39:17-67
+service#com.blankj.utilcode.util.MessengerUtils$ServerService
+ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:43:9-49:19
+	android:exported
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:44:13-81
+intent-filter#action:name:${applicationId}.messenger
+ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:46:13-48:29
+intent-filter#action:name:example.zxing.messenger
+ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:46:13-48:29
+action#${applicationId}.messenger
+ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:47:25-66
+action#example.zxing.messenger
+ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:47:25-66
+activity#com.mikepenz.aboutlibraries.ui.LibsActivity
+ADDED from [com.mikepenz:aboutlibraries:6.2.3] /Users/wp/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:12:9-80
+	android:name
+		ADDED from [com.mikepenz:aboutlibraries:6.2.3] /Users/wp/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:12:19-77
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:26:22-74
+provider#leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:29:9-37:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:31:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:30:13-70
+activity#leakcanary.internal.activity.LeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:39:9-44:66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:42:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:41:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:44:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:43:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:40:13-69
+activity-alias#leakcanary.internal.activity.LeakLauncherActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:46:9-63:26
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:49:13-66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:52:13-71
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:50:13-36
+	android:targetActivity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:53:13-79
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:51:13-52
+	android:banner
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:48:13-59
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:55:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:54:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:47:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:56:13-62:29
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:61:17-86
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:61:27-83
+activity#leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:65:9-71:68
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:69:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:67:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:68:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:71:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:70:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:66:13-80
+receiver#leakcanary.internal.NotificationReceiver
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:73:9-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/wp/.gradle/caches/transforms-3/04be8314e443af7e2a4a7a4ca9b913d3/transformed/leakcanary-android-core-2.7/AndroidManifest.xml:73:19-74
+provider#leakcanary.internal.AppWatcherInstaller$MainProcess
+ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/wp/.gradle/caches/transforms-3/ce2e9f267cc052285f615a0bdcf2dd4a/transformed/leakcanary-object-watcher-android-2.7/AndroidManifest.xml:9:13-79
+provider#leakcanary.internal.PlumberInstaller
+ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:10:13-69
+	android:exported
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/wp/.gradle/caches/transforms-3/43a893171beb85463f280cd5a1d6caab/transformed/plumber-android-2.7/AndroidManifest.xml:9:13-64
