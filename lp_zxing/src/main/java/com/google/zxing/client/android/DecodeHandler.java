@@ -32,6 +32,7 @@ import com.google.zxing.ReaderException;
 import com.google.zxing.Result;
 import com.google.zxing.common.HybridBinarizer;
 import com.lpcode.decoding.v0047.l1.CodeDecJni;
+import com.openssl.crypto.ICAOCryptoJni;
 
 import java.io.ByteArrayOutputStream;
 import java.util.Map;
@@ -61,8 +62,6 @@ final class DecodeHandler extends Handler {
         }
     }
 
-    final static byte[] bytes = "123".getBytes();
-    byte[][] retStr = new byte[8][];
 
     /**
      * Decode the data within the viewfinder rectangle, and time how long it took. For efficiency,
@@ -75,17 +74,29 @@ final class DecodeHandler extends Handler {
     private void decode(byte[] data, int width, int height) {
         Result rawResult = null;
         byte[] byout = null;
+
         PlanarYUVLuminanceSource source = activity.getCameraManager().buildLuminanceSource(data, width, height);
         if (source != null) {
             String resultStr = null;
             try {
+                final byte[] bytes = "123".getBytes();
+                byte[][] retStr = new byte[8][];
                 int n = new CodeDecJni().CodeDecode(source.getMatrix(), source.getWidth(), source.getHeight(), bytes, retStr);
                 if (n > 0) {
+//                    byte[] key = "0123456789abcdef".getBytes();//128λkey
+//                    byte[] plaintext = ICAOCryptoJni.sm4_decrypt(retStr[0], key);
+//                    Log.d("TAG", "decode: "+plaintext.length);
                     resultStr = new String(retStr[0], "GB18030");
                     boolean ret = CodeDecJni.addData(retStr[0]);
-                    if (ret) byout = CodeDecJni.getData();
-                    rawResult = new Result(resultStr, byout, null, BarcodeFormat.LON_BEI);
-                    Log.d("TAG", "decode: 解码成功:" + resultStr);
+                    if (ret) {
+                        byout = CodeDecJni.getData();
+
+                        rawResult = new Result(resultStr, byout, null, BarcodeFormat.LON_BEI);
+                        Log.d("TAG", "decode: 解码成功:" + resultStr);
+                    } else {
+                        Log.d("TAG", "decode: 解码失败");
+                    }
+
                 } else {
                     Log.d("TAG", "decode: 解码失败");
                 }

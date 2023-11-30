@@ -31,28 +31,38 @@ class HomeActivity : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        if (resultCode == RESULT_OK) {
+        if (resultCode == RESULT_OK && requestCode == 10086) {
             val stringExtra = data?.getStringExtra(Intents.Scan.RESULT)
-            val model = data?.getStringExtra(Intents.Scan.RESULT_FORMAT)
-            Log.d(TAG, "onActivityResult: $model")
             val rowByte = data?.getByteArrayExtra(Intents.Scan.RESULT_BYTES)
+            val resultFormat = data?.getStringExtra(Intents.Scan.RESULT_FORMAT)
+            Log.d(TAG, "onActivityResult: ${rowByte?.size}")
 
-            if (rowByte != null && rowByte.isNotEmpty()) {
-                lpDecode(rowByte)
-            }
-
+            decode(stringExtra, rowByte, resultFormat)
         }
     }
 
-    private fun lpDecode(rowByte: ByteArray) {
+    private fun decode(stringExtra: String?, rowByte: ByteArray?, resultFormat: String?) {
+        try {
+            if (resultFormat == "LON_BEI") {
+                val splitLevelString = CodeDecJni.splitLevelString(rowByte)
+                val readableCode = splitLevelString[0][1]//加密过得
+                val image = splitLevelString[1][1]///加密过得
+                if (image.isNotEmpty()) {
+                    val imageDecode = CodeDecJni.ImageDecode(image)
+                    Log.d(TAG, "机读码: ${ConvertUtils.bytes2String(readableCode)}")
+                    Log.d(TAG, "图片: ${ConvertUtils.bytes2String(image)}")
+//                    androidMessage.scanResult(
+//                        ConvertUtils.bytes2String(readableCode),
+//                        imageDecode,
+//                        resultFormat
+//                    ) {}
+                }
+            } else {
+//                androidMessage.scanResult(stringExtra, null, resultFormat) {}
+            }
 
-        val splitLevelString = CodeDecJni.splitLevelString(rowByte)
-        val readableCode = splitLevelString[0][1]
-        val image = splitLevelString[1][1]
-        if (image.isNotEmpty()) {
-            CodeDecJni.ImageDecode(image)
-            Log.d(TAG, "机读码: ${ConvertUtils.bytes2String(readableCode)}")
-            Log.d(TAG, "图片: ${ConvertUtils.bytes2String(image)}")
+        } catch (e: Exception) {
+            e.printStackTrace()
         }
 
     }

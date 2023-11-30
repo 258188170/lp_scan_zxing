@@ -215,6 +215,7 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
                 int height = intent.getIntExtra(Intents.Scan.HEIGHT, 240);
 
                 if (width > 0 && height > 0) {
+                    Log.d(TAG, "onResume: "+SizeUtils.dp2px(width)+SizeUtils.dp2px(width));
                     cameraManager.setManualFramingRect(SizeUtils.dp2px(width), SizeUtils.dp2px(height));
                 }
 
