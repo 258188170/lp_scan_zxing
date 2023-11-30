@@ -19,8 +19,9 @@ class HomeActivity : AppCompatActivity() {
         val bt = findViewById<Button>(R.id.bt_can)
         bt.setOnClickListener {
             val intent = Intent(this, CaptureActivity::class.java)
-            intent.putExtra(Intents.Scan.FORMATS, Intents.Scan.QR_CODE_MODE)
+//            intent.putExtra(Intents.Scan.FORMATS, Intents.Scan.QR_CODE_MODE)
             intent.putExtra(Intents.Scan.ACTION, Intents.Scan.ACTION)
+            intent.putExtra(Intents.Scan.MODE, Intents.Scan.QR_CODE_MODE)
             intent.putExtra(Intents.Scan.WIDTH, 300)
             intent.putExtra(Intents.Scan.HEIGHT, 300)
             startActivityForResult(intent, 10086)
@@ -32,7 +33,10 @@ class HomeActivity : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
         if (resultCode == RESULT_OK) {
             val stringExtra = data?.getStringExtra(Intents.Scan.RESULT)
+            val model = data?.getStringExtra(Intents.Scan.RESULT_FORMAT)
+            Log.d(TAG, "onActivityResult: $model")
             val rowByte = data?.getByteArrayExtra(Intents.Scan.RESULT_BYTES)
+
             if (rowByte != null && rowByte.isNotEmpty()) {
                 lpDecode(rowByte)
             }
@@ -41,10 +45,11 @@ class HomeActivity : AppCompatActivity() {
     }
 
     private fun lpDecode(rowByte: ByteArray) {
+
         val splitLevelString = CodeDecJni.splitLevelString(rowByte)
         val readableCode = splitLevelString[0][1]
         val image = splitLevelString[1][1]
-        if (image.isNotEmpty()){
+        if (image.isNotEmpty()) {
             CodeDecJni.ImageDecode(image)
             Log.d(TAG, "机读码: ${ConvertUtils.bytes2String(readableCode)}")
             Log.d(TAG, "图片: ${ConvertUtils.bytes2String(image)}")
