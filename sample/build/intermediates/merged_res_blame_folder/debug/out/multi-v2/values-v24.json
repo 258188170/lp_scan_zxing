@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "/Users/wp/.gradle/caches/transforms-3/dededf3fdc1a1fbe5d97f31941c1fd1f/transformed/media-1.0.0/res/values-v24/values-v24.xml",

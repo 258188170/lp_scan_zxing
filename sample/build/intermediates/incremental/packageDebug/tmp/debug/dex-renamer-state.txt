@@ -1,14 +1,14 @@
-#Thu Nov 30 18:05:48 CST 2023
-base.0=/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/14/classes.dex
-base.2=/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/3/classes.dex
-base.3=/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/5/classes.dex
-base.4=/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/6/classes.dex
-base.5=/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/7/classes.dex
-base.6=/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/8/classes.dex
-base.7=/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/9/classes.dex
-base.8=/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.9=/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+#Fri Dec 01 09:42:26 CST 2023
+base.0=/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/14/classes.dex
+base.2=/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/3/classes.dex
+base.3=/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/5/classes.dex
+base.4=/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/6/classes.dex
+base.5=/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/7/classes.dex
+base.6=/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/8/classes.dex
+base.7=/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/dex/debug/mergeLibDexDebug/9/classes.dex
+base.8=/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.9=/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
 path.0=classes.dex
 path.1=14/classes.dex
 path.2=3/classes.dex

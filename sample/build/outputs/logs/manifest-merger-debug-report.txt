@@ -1,12 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
 MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/wp/.gradle/caches/transforms-3/9e11acc90d9fc08352494aad6db6ff99/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
-MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:1-56:12
+MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:1-56:12
 MERGED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:2:1-52:12
 MERGED from [com.mikepenz:aboutlibraries:6.2.3] /Users/wp/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:2:1-15:12
 MERGED from [com.mikepenz:iconics-core:3.2.0] /Users/wp/.gradle/caches/transforms-3/3d97af38d93aa2d15b81931f28c4a2ca/transformed/iconics-core-3.2.0/AndroidManifest.xml:2:1-11:12
@@ -55,29 +55,29 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/wp/.gradle/caches/
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/wp/.gradle/caches/transforms-3/cbc85052eb0c82550e795119208f43ff/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/wp/.gradle/caches/transforms-3/6ae12152e4763bfaf25db7542b2981db/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/wp/.gradle/caches/transforms-3/d4d8a64e342d5f7360962b6d766b1f2a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
 	package
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:3:5-28
-		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
-		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
-		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
-		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:5:5-50:19
+ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:5:5-50:19
 MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:22:5-26:19
 MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:22:5-26:19
-MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:46:5-54:19
-MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:46:5-54:19
+MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:46:5-54:19
+MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:46:5-54:19
 MERGED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:18:5-50:19
 MERGED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:18:5-50:19
 MERGED from [com.mikepenz:aboutlibraries:6.2.3] /Users/wp/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:11:5-13:19
@@ -95,103 +95,103 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/wp/.
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] /Users/wp/.gradle/caches/transforms-3/2c28cffc1346de6a33e00a19c46b6b43/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:9:9-41
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:9:9-41
 	android:icon
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:8:9-38
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:8:9-38
 	android:allowBackup
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:7:9-36
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:7:9-36
 	android:name
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:6:9-42
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:6:9-42
 activity#example.zxing.MainActivity
-ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:10:9-19:20
+ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:10:9-19:20
 	android:label
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:12:13-45
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:12:13-45
 	android:theme
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:13:13-44
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:13:13-44
 	android:name
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:11:13-41
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:11:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:14:13-18:29
+ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:15:17-69
+ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:17:17-77
+ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:17:27-74
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:17:27-74
 activity#example.zxing.ContinuousCaptureActivity
-ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:20:9-72
+ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:20:9-63
 	android:name
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:20:19-60
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:20:19-60
 activity#example.zxing.AnyOrientationCaptureActivity
-ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:21:9-26:72
+ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:21:9-26:63
 	android:screenOrientation
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:23:13-51
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:23:13-51
 	android:stateNotNeeded
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:24:13-42
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:24:13-42
 	android:windowSoftInputMode
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:26:13-60
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:26:13-60
 	android:theme
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:25:13-54
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:25:13-54
 	android:name
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:22:13-58
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:22:13-58
 activity#example.zxing.ToolbarCaptureActivity
-ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:27:9-33:72
+ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:27:9-33:63
 	android:screenOrientation
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:30:13-49
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:30:13-49
 	android:clearTaskOnLaunch
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:29:13-45
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:29:13-45
 	android:stateNotNeeded
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:31:13-42
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:31:13-42
 	android:windowSoftInputMode
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:33:13-60
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:33:13-60
 	android:theme
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:32:13-57
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:32:13-57
 	android:name
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:28:13-51
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:28:13-51
 activity#example.zxing.CustomScannerActivity
-ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:34:9-39:72
+ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:34:9-39:63
 	android:screenOrientation
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:36:13-51
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:36:13-51
 	android:stateNotNeeded
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:37:13-42
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:37:13-42
 	android:windowSoftInputMode
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:39:13-60
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:39:13-60
 	android:theme
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:38:13-54
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:38:13-54
 	android:name
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:35:13-50
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:35:13-50
 activity#example.zxing.SmallCaptureActivity
-ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:40:9-45:72
+ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:40:9-45:63
 	android:screenOrientation
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:42:13-51
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:42:13-51
 	android:stateNotNeeded
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:43:13-42
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:43:13-42
 	android:windowSoftInputMode
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:45:13-60
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:45:13-60
 	android:theme
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:44:13-54
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:44:13-54
 	android:name
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:41:13-49
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:41:13-49
 activity#example.zxing.TabbedScanning
-ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:46:9-49:79
+ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:46:9-49:70
 	android:label
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:49:13-67
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:49:13-67
 	android:theme
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:48:13-51
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:48:13-51
 	android:name
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml:47:13-43
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml:47:13-43
 uses-sdk
-INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
-INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
 MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:20:5-44
 MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:20:5-44
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/wp/.gradle/caches/transforms-3/9e11acc90d9fc08352494aad6db6ff99/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/wp/.gradle/caches/transforms-3/9e11acc90d9fc08352494aad6db6ff99/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
-MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-44
-MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-44
+MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-44
+MERGED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-44
 MERGED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:7:5-44
 MERGED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:7:5-44
 MERGED from [com.mikepenz:aboutlibraries:6.2.3] /Users/wp/.gradle/caches/transforms-3/d87f57bc7db3339b16dda5a06c1a551e/transformed/aboutlibraries-6.2.3/AndroidManifest.xml:7:5-9:41
@@ -288,16 +288,16 @@ MERGED from [androidx.print:print:1.0.0] /Users/wp/.gradle/caches/transforms-3/6
 MERGED from [androidx.print:print:1.0.0] /Users/wp/.gradle/caches/transforms-3/6ae12152e4763bfaf25db7542b2981db/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/wp/.gradle/caches/transforms-3/d4d8a64e342d5f7360962b6d766b1f2a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/wp/.gradle/caches/transforms-3/d4d8a64e342d5f7360962b6d766b1f2a/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
-INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
+INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
-		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
-		ADDED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
-		INJECTED from /Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
+		ADDED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
+		INJECTED from /Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/AndroidManifest.xml
 service#leakcanary.internal.HeapAnalyzerService
 ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:23:9-25:40
 	android:exported
@@ -305,59 +305,59 @@ ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/ca
 	android:name
 		ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/wp/.gradle/caches/transforms-3/cd9606df7d445e822d0626bdf67329c5/transformed/leakcanary-android-2.7/AndroidManifest.xml:24:13-67
 uses-permission#android.permission.CAMERA
-ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:5-65
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:5-65
 	android:name
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:22-62
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:22-62
 uses-feature#android.hardware.camera
-ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-27:36
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-27:36
 	android:required
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-33
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-33
 	android:name
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-47
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-47
 uses-feature#android.hardware.camera.front
-ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:5-30:36
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:5-30:36
 	android:required
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-33
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-33
 	android:name
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-53
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-53
 uses-feature#android.hardware.camera.autofocus
-ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:5-35:36
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:5-35:36
 	android:required
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-33
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-33
 	android:name
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-57
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-57
 uses-feature#android.hardware.camera.flash
-ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:5-38:36
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:5-38:36
 	android:required
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-33
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-33
 	android:name
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-53
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-53
 uses-feature#android.hardware.screen.landscape
-ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:5-41:36
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:5-41:36
 	android:required
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-33
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:9-33
 	android:name
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-57
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-57
 uses-feature#android.hardware.wifi
-ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:5-44:36
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:5-44:36
 	android:required
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:9-33
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:9-33
 	android:name
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-45
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-45
 activity#com.journeyapps.barcodescanner.CaptureActivity
-ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:47:9-53:63
+ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:47:9-53:63
 	android:screenOrientation
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:50:13-56
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:50:13-49
 	android:clearTaskOnLaunch
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:49:13-45
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:49:13-45
 	android:stateNotNeeded
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:51:13-42
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:51:13-42
 	android:windowSoftInputMode
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:53:13-60
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:53:13-60
 	android:theme
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:52:13-54
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:52:13-54
 	android:name
-		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/lp_zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:48:13-74
+		ADDED from [:zxing-android-embedded] /Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/merged_manifest/debug/AndroidManifest.xml:48:13-74
 queries
 ADDED from [com.blankj:utilcodex:1.31.1] /Users/wp/.gradle/caches/transforms-3/58480a0046b5826de9bd3ebf33332fdc/transformed/utilcodex-1.31.1/AndroidManifest.xml:9:5-16:15
 intent#action:name:android.intent.action.MAIN

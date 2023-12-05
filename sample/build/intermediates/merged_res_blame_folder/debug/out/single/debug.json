@@ -1,62 +1,62 @@
 [
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/layout_continuous_scan.xml.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/layout/continuous_scan.xml"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/drawable-xhdpi_icon.png.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/drawable-xhdpi/icon.png"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/layout_activity_custom_scanner.xml.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/layout/activity_custom_scanner.xml"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/layout_activity_tabbed_scanning.xml.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/layout/activity_tabbed_scanning.xml"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/menu_menu_tabbed_scanning.xml.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/menu/menu_tabbed_scanning.xml"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/layout_custom_barcode_scanner.xml.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/layout/custom_barcode_scanner.xml"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/layout_fragment_scan.xml.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/layout/fragment_scan.xml"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/layout_fragment_tabbed_camera.xml.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/layout/fragment_tabbed_camera.xml"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/layout_continuous_scan.xml.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/layout/continuous_scan.xml"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/layout_fragment_tabbed_scanning.xml.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/layout/fragment_tabbed_scanning.xml"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/layout_fragment_tabbed_camera.xml.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/layout/fragment_tabbed_camera.xml"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/drawable-xhdpi_icon.png.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/drawable-xhdpi/icon.png"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/menu_menu_tabbed_scanning.xml.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/menu/menu_tabbed_scanning.xml"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/layout_fragment_tabbed_scanning.xml.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/layout/fragment_tabbed_scanning.xml"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/layout_fragment_scan.xml.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/layout/fragment_scan.xml"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/layout_capture_appcompat.xml.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/layout/capture_appcompat.xml"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/layout_capture_small.xml.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/layout/capture_small.xml"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/drawable-xxhdpi_icon.png.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/drawable-xxhdpi/icon.png"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/layout_activity_tabbed_scanning.xml.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/layout/activity_tabbed_scanning.xml"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/drawable-hdpi_icon.png.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/drawable-hdpi/icon.png"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/layout_capture_appcompat.xml.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/layout/capture_appcompat.xml"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/drawable-mdpi_icon.png.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/drawable-mdpi/icon.png"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/drawable-xxhdpi_icon.png.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/drawable-xxhdpi/icon.png"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/layout_capture_small.xml.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/layout/capture_small.xml"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/drawable-hdpi_icon.png.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/drawable-hdpi/icon.png"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/layout_activity_custom_scanner.xml.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/layout/activity_custom_scanner.xml"
     },
     {
-        "merged": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/build/intermediates/merged_res/debug/drawable-mdpi_icon.png.flat",
-        "source": "/Users/wp/AndroidStudioFlutterProjects/lp_zxing/sample/src/main/res/drawable-mdpi/icon.png"
+        "merged": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/build/intermediates/merged_res/debug/layout_custom_barcode_scanner.xml.flat",
+        "source": "/Users/wp/AndroidStudioFlutterProjects/zxing/sample/src/main/res/layout/custom_barcode_scanner.xml"
     }
 ]

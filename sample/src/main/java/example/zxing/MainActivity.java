@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.blankj.utilcode.util.ConvertUtils;
+import com.blankj.utilcode.util.ToastUtils;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.client.android.Intents;
 import com.journeyapps.barcodescanner.ScanContract;
@@ -26,6 +27,8 @@ import androidx.fragment.app.Fragment;
 
 public class MainActivity extends AppCompatActivity {
     private final String TAG = "MainActivity";
+    public static byte[] publickey = new byte[]{66, 69, 120, 106, 65, 54, 100, 53, 57, 84, 47, 52, 112, 79, 83, 83, 102, 57, 120, 105, 82, 112, 82, 67, 119, 86, 77, 55, 65, 106, 110, 67, 86, 47, 120, 53, 72, 48, 57, 111, 81, 69, 75, 106, 100, 122, 118, 104, 81, 76, 118, 75, 76, 79, 102, 111, 121, 80, 72, 69, 90, 67, 56, 104, 99, 105, 118, 116, 98, 107, 78, 83, 101, 52, 120, 53, 81, 50, 54, 73, 77, 119, 115, 68, 77, 73, 51, 61};
+
     private final ActivityResultLauncher<ScanOptions> barcodeLauncher = registerForActivityResult(new ScanContract(),
             result -> {
                 if (result.getContents() == null) {
@@ -61,10 +64,23 @@ public class MainActivity extends AppCompatActivity {
                     // Log the decoded readable code and image data
                     byte[] key = "0123456789abcdef".getBytes();//128λkey
                     byte[] plaintext = ICAOCryptoJni.sm4_decrypt(readableCode, key);
-                    Log.d(TAG, "decode: " + ConvertUtils.bytes2String(plaintext));
-                    Log.d(TAG, "decode: 机读码: " + ConvertUtils.bytes2String(readableCode));
-                    Log.d(TAG, "decode: 图片: " + ConvertUtils.bytes2String(imageDecode));
-                    Log.d(TAG, "decode: 图片: " + stringExtra);
+                    int splitIndex = 72;
+
+                    byte[] content = java.util.Arrays.copyOfRange(plaintext, 0, splitIndex);
+                    byte[] signData = java.util.Arrays.copyOfRange(plaintext, splitIndex, plaintext.length);
+
+                    boolean sm2VerifyData = ICAOCryptoJni.sm2_verify_data(publickey, content, signData);
+                    if (sm2VerifyData)
+                        ToastUtils.showShort("验签成功");
+                    else
+                        ToastUtils.showShort("验签失败");
+                    Log.d(TAG, "decode: plaintext: " + ConvertUtils.bytes2String(plaintext));
+                    Log.d(TAG, "decode: content: " + ConvertUtils.bytes2String(content));
+                    Log.d(TAG, "decode: signData: " + ConvertUtils.bytes2HexString(signData));
+                    Log.d(TAG, "decode: plaintext size: " + plaintext.length);
+                    Log.d(TAG, "decode: signData size: " + signData.length);
+                    Log.d(TAG, "decode: content size: " + content.length);
+
                     // Uncomment the following lines if you want to use androidMessage.scanResult
                     /*
                     androidMessage.scanResult(
@@ -91,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void scanBarcode(View view) {
-        barcodeLauncher.launch(new ScanOptions());
+        barcodeLauncher.launch(new ScanOptions().setOrientationLocked(true));
     }
 
     public void scanBarcodeInverted(View view) {
@@ -111,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
         options.setCaptureActivity(AnyOrientationCaptureActivity.class);
         options.setDesiredBarcodeFormats(ScanOptions.ONE_D_CODE_TYPES);
         options.setPrompt("Scan something");
-        options.setOrientationLocked(false);
+        options.setOrientationLocked(true);
         options.setBeepEnabled(false);
         barcodeLauncher.launch(options);
     }
