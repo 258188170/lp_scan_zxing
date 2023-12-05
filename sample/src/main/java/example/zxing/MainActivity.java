@@ -16,7 +16,6 @@ import com.google.zxing.BarcodeFormat;
 import com.google.zxing.client.android.Intents;
 import com.journeyapps.barcodescanner.ScanContract;
 import com.journeyapps.barcodescanner.ScanOptions;
-import com.lpcode.decoding.v0047.l1.CodeDecJni;
 import com.mikepenz.aboutlibraries.LibsBuilder;
 import com.openssl.crypto.ICAOCryptoJni;
 
@@ -44,61 +43,9 @@ public class MainActivity extends AppCompatActivity {
                     Log.d("MainActivity", "Scanned");
                     Toast.makeText(MainActivity.this, "Scanned: " + result.getContents(), Toast.LENGTH_LONG).show();
 
-                    decode(result.getContents(), result.getRawBytes(), result.getFormatName());
                 }
             });
 
-    public void decode(String stringExtra, byte[] rowByte, String resultFormat) {
-        try {
-            if (BarcodeFormat.LON_BEI.name().equals(resultFormat)) {
-                // Decode the rowByte using CodeDecJni.splitLevelString method
-                byte[][][] splitLevelString = CodeDecJni.splitLevelString(rowByte);
-                // Get the encrypted readable code
-                assert splitLevelString != null;
-                byte[] readableCode = splitLevelString[0][1];
-                // Get the encrypted image data
-                byte[] image = splitLevelString[1][1];
-                if (image != null && image.length > 0) {
-                    // Decode the image data using CodeDecJni.ImageDecode method
-                    byte[] imageDecode = CodeDecJni.ImageDecode(image);
-                    // Log the decoded readable code and image data
-                    byte[] key = "0123456789abcdef".getBytes();//128λkey
-                    byte[] plaintext = ICAOCryptoJni.sm4_decrypt(readableCode, key);
-                    int splitIndex = 72;
-
-                    byte[] content = java.util.Arrays.copyOfRange(plaintext, 0, splitIndex);
-                    byte[] signData = java.util.Arrays.copyOfRange(plaintext, splitIndex, plaintext.length);
-
-                    boolean sm2VerifyData = ICAOCryptoJni.sm2_verify_data(publickey, content, signData);
-                    if (sm2VerifyData)
-                        ToastUtils.showShort("验签成功");
-                    else
-                        ToastUtils.showShort("验签失败");
-                    Log.d(TAG, "decode: plaintext: " + ConvertUtils.bytes2String(plaintext));
-                    Log.d(TAG, "decode: content: " + ConvertUtils.bytes2String(content));
-                    Log.d(TAG, "decode: signData: " + ConvertUtils.bytes2HexString(signData));
-                    Log.d(TAG, "decode: plaintext size: " + plaintext.length);
-                    Log.d(TAG, "decode: signData size: " + signData.length);
-                    Log.d(TAG, "decode: content size: " + content.length);
-
-                    // Uncomment the following lines if you want to use androidMessage.scanResult
-                    /*
-                    androidMessage.scanResult(
-                        ConvertUtils.bytes2String(readableCode),
-                        imageDecode,
-                        resultFormat
-                    ) {};
-                    */
-                }
-            }  // Uncomment the following lines if you want to use androidMessage.scanResult
- /*
-                androidMessage.scanResult(stringExtra, null, resultFormat) {};
-                */
-        } catch (Exception e) {
-            // Handle any exceptions that may occur during decoding
-            e.printStackTrace();
-        }
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

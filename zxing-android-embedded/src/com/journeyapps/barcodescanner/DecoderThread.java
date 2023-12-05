@@ -14,8 +14,7 @@ import com.google.zxing.ResultPoint;
 import com.google.zxing.client.android.R;
 import com.journeyapps.barcodescanner.camera.CameraInstance;
 import com.journeyapps.barcodescanner.camera.PreviewCallback;
-import com.lpcode.decoding.v0047.l1.CodeDecJni;
-import com.openssl.crypto.ICAOCryptoJni;
+import com.lpcode.decoding.v0048.CodeDecJni;
 
 import java.util.List;
 
@@ -149,21 +148,13 @@ public class DecoderThread {
         LuminanceSource source = createSource(sourceData);
         if (source != null) {
             String resultStr = null;
-            byte[] byout = null;
             try {
                 Log.d(TAG, "decode:  source.getWidth()" + source.getWidth() + " source.getHeight()" + source.getHeight());
-                int n = new CodeDecJni().CodeDecode(source.getMatrix(), source.getWidth(), source.getHeight(), bytes, retStr);
-                if (n > 0) {
+                boolean n = new CodeDecJni().CodeDecode(source.getMatrix(), source.getWidth(), source.getHeight(), bytes, retStr);
+                if (n) {
                     resultStr = new String(retStr[0], "GB18030");
-                    boolean ret = CodeDecJni.addData(retStr[0]);
-                    if (ret) {
-                        byout = CodeDecJni.getData();
-                        rawResult = new Result(resultStr, byout, null, BarcodeFormat.LON_BEI);
-                        Log.d("TAG", "decode: 解码成功:" + resultStr);
-                    } else {
-                        Log.d("TAG", "decode: 解码失败");
-                    }
-
+                    rawResult = new Result(resultStr, retStr[0], null, BarcodeFormat.LON_BEI);
+                    Log.d("TAG", "decode: 解码成功:" + resultStr);
                 } else {
                     Log.d("TAG", "decode: 解码失败");
                 }
