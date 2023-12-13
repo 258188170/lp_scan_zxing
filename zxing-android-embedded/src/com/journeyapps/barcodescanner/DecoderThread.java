@@ -16,6 +16,7 @@ import com.journeyapps.barcodescanner.camera.CameraInstance;
 import com.journeyapps.barcodescanner.camera.PreviewCallback;
 import com.lpcode.decoding.v0048.CodeDecJni;
 
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 /**
@@ -152,7 +153,7 @@ public class DecoderThread {
                 Log.d(TAG, "decode:  source.getWidth()" + source.getWidth() + " source.getHeight()" + source.getHeight());
                 boolean n = new CodeDecJni().CodeDecode(source.getMatrix(), source.getWidth(), source.getHeight(), bytes, retStr);
                 if (n) {
-                    resultStr = new String(retStr[0], "GB18030");
+                    resultStr = new String(retStr[0], StandardCharsets.UTF_8);
                     rawResult = new Result(resultStr, retStr[0], null, BarcodeFormat.LON_BEI);
                     Log.d("TAG", "decode: 解码成功:" + resultStr);
                 } else {
