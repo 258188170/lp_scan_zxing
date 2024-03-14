@@ -18,3 +18,7 @@ local.properties
 # Project exclude paths
 /lp_zxing/build/
 /lp_zxing/build/intermediates/javac/debug/classes/
+# Project exclude paths
+/sample/build/
+/sample/build/intermediates/javac/debug/classes/
+/zxing-android-embedded/build/

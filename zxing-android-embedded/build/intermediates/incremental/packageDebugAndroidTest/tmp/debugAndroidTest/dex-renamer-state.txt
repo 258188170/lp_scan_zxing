@@ -1,4 +1,0 @@
-#Tue Dec 05 10:07:10 CST 2023
-base.0=/Users/wp/AndroidStudioFlutterProjects/zxing/zxing-android-embedded/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
