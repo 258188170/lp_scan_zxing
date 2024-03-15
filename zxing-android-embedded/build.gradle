@@ -6,7 +6,7 @@ ext.artifactId = 'zxing-android-embedded'
 
 dependencies {
 //    api project.zxingCore
-    api fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
     implementation 'androidx.core:core:1.6.0'
     implementation 'androidx.fragment:fragment:1.3.6'
 
